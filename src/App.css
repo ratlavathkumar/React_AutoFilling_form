@@ -1,0 +1,28 @@
+.form-fields{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundImage {
+  color: #f2f2f2;
+  text-align: center;
+  background-image: url('./bgImage/rachisi_logo.jpg'); 
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-fields input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+}
+
+.submit-btn{
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
